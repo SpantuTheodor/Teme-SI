@@ -13,11 +13,21 @@
 ## **Modalitatea de rezolvare**
 #### Implementarea criptarii/decriptarii
 ###### Pentru implementarea criptarilor am urmat diagramele de mai jos, primul pas fiind mereu caz special atat in criptare cat si in decriptare deoarece foloseste IV-ul si nu un bloc de Cyphertext.
+<p align="center">
+  <img align="center" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_encryption.png" width="75%">
+</p>
 
-<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_encryption.png">
-<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_decryption.png">
-<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_encryption.png">
-<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_decryption.png">
+<p align="center">
+  <img align="center" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_decryption.png" width="75%">
+</p>
+
+<p align="center">
+  <img align="center" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_encryption.png" width="75%">
+</p>
+
+<p align="center">
+  <img align="center" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_decryption.png" width="75%">
+</p>
 &nbsp;
 
 ###### Libraria AES din suita Crypto.Cipher si  libraria random au fost foarte de ajutor.

@@ -8,7 +8,10 @@
 ###### **Nodul A**: nod client , ce alege modul de criptare a mesajelor in interiorul aplicatiei si transmite un mesaj spre **nodul B**.
 ###### **Nodul B**: nod client, ce primeste mesajul criptat de la **nodul A**  si il afiseaza.
 
-![image](https://user-images.githubusercontent.com/61733856/99820187-18050d00-2b59-11eb-81f6-d5a565e2b8d3.png)
+<p align="center">
+  <img align="center" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/Diagram.png" width="75%">
+</p>
+&nbsp;
 
 ## **Modalitatea de rezolvare**
 #### Implementarea criptarii/decriptarii

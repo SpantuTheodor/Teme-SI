@@ -14,8 +14,11 @@
 #### Implementarea criptarii/decriptarii
 ###### Pentru implementarea criptarilor am urmat diagramele de mai jos, primul pas fiind mereu caz special atat in criptare cat si in decriptare deoarece foloseste IV-ul si nu un bloc de Cyphertext.
 
-![image](https://user-images.githubusercontent.com/61733856/99821406-ac23a400-2b5a-11eb-8b4a-fd9a84b595c5.png)
-![image](https://user-images.githubusercontent.com/61733856/99821432-b47bdf00-2b5a-11eb-9f87-e4f371065e0a.png)
+<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_encryption.png">
+<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CBC_decryption.png">
+<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_encryption.png">
+<img align="left" src="https://github.com/SpantuTheodor/Teme-SI/blob/master/Tema1/README/CFB_decryption.png">
+&nbsp;
 
 ###### Libraria AES din suita Crypto.Cipher si  libraria random au fost foarte de ajutor.
 ###### Prima pentru pasii “block cipher encryption/decryption” din diagramele de mai sus, iar a doua pentru a genera valori random pentru IV-uri.
